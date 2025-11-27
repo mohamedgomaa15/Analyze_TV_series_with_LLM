@@ -5,3 +5,5 @@ nltk>=3.5
 grdio
 spacy
 pyvis
+evaluate
+dotenv
