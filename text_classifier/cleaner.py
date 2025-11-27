@@ -6,7 +6,7 @@ class Cleaner():
         pass 
 
     def replace_paragraph(self, text: str):
-        return text.replace('<\p>', '<\p>\n')
+        return text.replace('</p>', '</p>\n')
     
     def remove_html_tags(self, text: str):
         return BeautifulSoup(text, 'lxml').text
